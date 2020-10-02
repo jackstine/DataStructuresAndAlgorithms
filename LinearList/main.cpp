@@ -1,6 +1,7 @@
 #include "ArrayList.cpp"
 #include "Dummy.cpp"
 #include <iostream>
+using namespace std;
 
 int main(){
 //    Dummy dum(1);
@@ -14,9 +15,9 @@ int main(){
     array.add(8);
     int h = 7;
     array.add(h);
-    std::cout << array.get(0) << "\n";
+    cout << array.get(0) << "\n";
     int g = array.get(0);
     g++;
-    std::cout << array.get(0) << "\n";
+    cout << array.get(0) << "\n";
     return 0;
 }
